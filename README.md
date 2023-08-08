@@ -39,7 +39,7 @@ click the big red "Stop My Server" button, if it's there.  If it's not, that's
 fine.  Then click "Logout" (upper right) to get back to the homepage and the
 big orange button.
 
-Now, click the big orange button and login with your `@ucr.edu` email address.
+Now, click the big orange button and login with your `@ucsd.edu` email address.
 After a progress bar, you'll end up at the Jupyter Notebook file browser.
 Looking at an empty directory (unless you've used the Datahub before, in which
 case your old files will be there).  In any case, you don't have a lab to do
@@ -67,13 +67,13 @@ This will set you up with a copy of the starter repository.
 **Note**: Be sure to use the **`ssh`** method to checkout your repo rather than `http`.  Authentication over ssh is much simpler and it's what our tools assume.  If you try to use HTTP, you'll get something like:
 
 ```
-[htseng@datahub]$ git clone https://github.com/cse142lUCR/2023su-cse142l-welcome-hungweitseng.git
+[htseng@datahub]$ git clone https://github.com/cse142lucsd/2023su-cse142l-welcome-hungweitseng.git
 Cloning into '2023su-cse142l-welcome-hungweitseng'...
 Username for 'https://github.com': hungweitseng
 Password for 'https://hungweitseng@github.com': 
 remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-fatal: Authentication failed for 'https://github.com/cse142lUCR/2023su-cse142l-welcome-hungweitseng.git/'
+fatal: Authentication failed for 'https://github.com/cse142lucsd/2023su-cse142l-welcome-hungweitseng.git/'
 ```
 ![clone with ssh](images/clone-with-ssh.png)
 
