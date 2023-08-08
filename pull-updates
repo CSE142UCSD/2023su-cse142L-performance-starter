@@ -3,7 +3,7 @@
 echo "======= backing up your notebook before you proceed =========="
 #read
 
-cp Assignment.ipynb Assignment.backup.ipynb
+cp Lab.ipynb Lab.backup.ipynb
 echo "======= commiting your changes =========="
 git commit -am "My progress so far."
 echo "======= pull updates =========="
